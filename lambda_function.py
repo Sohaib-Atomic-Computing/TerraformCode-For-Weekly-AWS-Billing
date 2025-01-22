@@ -31,13 +31,13 @@ def lambda_handler(event, context):
         TimePeriod=time_period,
         Granularity='DAILY',
         Metrics=['UnblendedCost'],
-        Filter={
-            'Dimensions': {
-                'Key': 'RECORD_TYPE',
-                'Values': ['Credit'],
-                'MatchOptions': ['EQUALS']
-            }
-        },
+        # Filter={
+        #     'Dimensions': {
+        #         'Key': 'RECORD_TYPE',
+        #         'Values': ['Credit'],
+        #         'MatchOptions': ['EQUALS']
+        #     }
+        # },
         GroupBy=[
             {
                 'Type': 'DIMENSION',
