@@ -1,5 +1,5 @@
 provider "aws" {
-  region     = "eu-central-1"
+  region     = var.region
   access_key = var.access_key #Add your aws access key here
   secret_key = var.secret_key #Add your aws secret key here
   token      = var.token      #Add your aws token here if you're using temporary credentials like SSO or AssumeRole if not then remove this line
