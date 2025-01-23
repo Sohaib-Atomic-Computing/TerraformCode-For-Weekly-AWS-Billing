@@ -25,5 +25,5 @@ variable "account_name" {
 variable "slack_webhook_url" {
   description = "The Slack webhook URL to send notifications"
   type        = string
-  default     = "https://hooks.slack.com/services/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"
+  default     = "https://hooks.slack.com/services/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"
 }
