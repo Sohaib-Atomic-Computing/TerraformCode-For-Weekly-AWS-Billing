@@ -1,3 +1,9 @@
+variable "region" {
+  description = "Add your preffered region here"
+  type        = string
+  default     = ""
+}
+
 variable "access_key" {
   description = "AWS Access key to be used in the provider block"
   type        = string
